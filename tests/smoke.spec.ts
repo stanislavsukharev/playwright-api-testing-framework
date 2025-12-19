@@ -19,7 +19,7 @@ test('Get Articles', async ({ api }) => {
         .path('/tags')
         .getRequest(200)
 
-    expect(response2.tags[0]).shouldEqual('Test')
+    expect(response2.tags[0]).shouldEqual('Testс')
     expect(response2.tags.length).toBeLessThanOrEqual(10)
 })
 
